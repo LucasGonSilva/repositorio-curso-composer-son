@@ -1,0 +1,20 @@
+{
+  "name": "lucassilva/curso-composer-son",
+  "description": "Pacote de exemplo do curso de Composer da SON",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lucas Silva",
+      "email": "lsgonsilva@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lucassilva\\CursoSON\\": "src"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^1.24"
+  }
+}
